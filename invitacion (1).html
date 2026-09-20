@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Una invitación para ti ♡</title>
+<meta property="og:title" content="Una invitación para ti ♡">
+<meta property="og:description" content="Mi pulguita hermosa ♡">
+<meta property="og:url" content="https://roynick15.github.io/invitacion/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="roynick15.github.io">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Una invitación para ti ♡">
+<meta name="twitter:description" content="Mi pulguita hermosa ♡">
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+font-family:Georgia,"Times New Roman",serif;background:linear-gradient(145deg,#fffaf0,#eadcc7);
+color:#403a34}
+.card{width:min(92vw,430px);min-height:650px;padding:44px 30px;background:#fffdf8;
+border-radius:30px;box-shadow:0 25px 70px #5c493326;text-align:center;position:relative;overflow:hidden}
+.card:before,.card:after{content:"";position:absolute;border-radius:50%;background:#d6b66d18}
+.card:before{width:180px;height:180px;top:-80px;right:-70px}.card:after{width:140px;height:140px;bottom:-70px;left:-50px}
+.tiny{font:11px Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;color:#9a815b}
+h1{font-size:40px;font-weight:400;margin:20px 0 10px}
+.line{width:55px;height:2px;background:#c8a45d;margin:18px auto}
+.message{font-size:18px;line-height:1.8;margin:30px 5px}
+.date{font:13px Arial,sans-serif;letter-spacing:2px;color:#92794e;margin-top:30px}
+input{display:none}
+.button{display:inline-block;margin-top:30px;padding:15px 28px;border-radius:30px;background:#c9a45e;color:white;
+font:15px Arial,sans-serif;cursor:pointer;box-shadow:0 8px 22px #9b783533;transition:.2s}
+.button:hover{transform:translateY(-2px)}
+.surprise{display:none;margin-top:28px;animation:show .7s ease}
+input:checked ~ .surprise{display:block}
+input:checked ~ .button{display:none}
+.heart{font-size:30px;color:#b58c43;margin-bottom:8px}
+.surprise p{font-size:19px;line-height:1.7;margin:10px 0}
+.small{font-size:14px!important;color:#8a765c!important}
+.decor{position:absolute;color:#c8a45d80;font-size:25px}
+.a{top:20px;left:24px}.b{top:24px;right:25px}.c{bottom:25px;right:28px}
+@keyframes show{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<main class="card">
+<div class="decor a">✦</div><div class="decor b">♡</div><div class="decor c">✦</div>
+<div class="tiny">Una pequeña invitación</div>
+<h1>Mi pulguita hermosa</h1>
+<div class="line"></div>
+
+<div class="message">
+Hay días que se sienten un poquito más bonitos
+cuando los compartes con alguien especial.<br><br>
+Y mañana tengo ganas de compartir uno contigo.
+No te voy a contar todo todavía...
+</div>
+
+<div class="date">21 DE SEPTIEMBRE · 2026</div>
+
+<input type="checkbox" id="open">
+<label class="button" for="open">Descubrir invitación ♡</label>
+
+<section class="surprise">
+<div class="heart">♡</div>
+<p>¿Te gustaría salir conmigo mañana<br>y descubrir juntos qué tengo preparado?</p>
+<p class="small">Solo tienes que decirme:<br><b>“Sí, voy”</b> 💛</p>
+</section>
+</main>
+</body>
+</html>
